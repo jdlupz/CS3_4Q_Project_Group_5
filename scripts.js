@@ -41,7 +41,7 @@ function submitInput() {
         localStorage.setItem("storecontact", usercontact);
         localStorage.setItem("storesupport", usersupport);
 
-        window.open("profile page.html", "_self");
+        window.open("profilepage.html", "_self");
     }
 
     return false;
@@ -107,3 +107,7 @@ function checkpword(){
 function checksupport(){
     document.getElementById("supportrequired").innerHTML = "";
 }
+
+document.getElementById('volunteerButton').addEventListener('click', function() {
+    alert('Volunteer Now button clicked!');
+});
